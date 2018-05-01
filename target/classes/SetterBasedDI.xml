@@ -11,6 +11,6 @@
     </bean>
 
     <!-- Definition for spellChecker bean -->
-    <bean id = "spellChecker" class = "com.tutorialspoint.SpellChecker"></bean>
+    <bean id = "spellChecker" class = "com.spring.tutorialspoint.DI.setterBasedDI.SpellChecker"></bean>
 
 </beans>

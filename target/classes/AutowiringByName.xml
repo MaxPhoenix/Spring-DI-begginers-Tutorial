@@ -10,8 +10,12 @@
         <property name = "name" value = "Generic Text Editor" />
     </bean>
 
+    <!-- the id has to match the class FIELD of TextEditor-->
     <!-- Definition for spellChecker bean -->
     <bean id = "spellChecker" class = "com.spring.tutorialspoint.autowiring.SpellChecker"></bean>
+
+    <bean id = "spellChecker1" class = "com.spring.tutorialspoint.autowiring.SpellChecker"></bean>
+
 
     <bean id = "printer" class = "com.spring.tutorialspoint.autowiring.Printer"></bean>
 
