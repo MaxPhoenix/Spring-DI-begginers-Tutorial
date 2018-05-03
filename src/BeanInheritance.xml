@@ -6,12 +6,12 @@
         http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
 
-    <bean id = "helloWorldParent" class = "com.spring.tutorialspoint.beaninheritance.HelloWorldParent">
+    <bean id = "helloWorldParent" class = "com.spring.tutorialspoint.XMLConfiguration.beaninheritance.HelloWorldParent">
         <property name = "message1" value = "Hello World!"/>
         <property name = "message2" value = "Hello Second World!"/>
     </bean>
 
-    <bean id ="helloIndia" class = "com.spring.tutorialspoint.beaninheritance.HelloIndia" parent = "helloWorldParent">
+    <bean id ="helloIndia" class = "com.spring.tutorialspoint.XMLConfiguration.beaninheritance.HelloIndia" parent = "helloWorldParent">
         <property name = "message1" value = "Hello India!"/>
         <property name = "message3" value = "Namaste India!"/>
     </bean>

@@ -10,7 +10,7 @@
         default-init-method = "init"
        default-destroy-method = "destroy" -->
 
-    <bean id = "helloWorld" class = "com.spring.tutorialspoint.helloworld.HelloWorld" scope = "prototype" init-method="init" destroy-method="destroy">
+    <bean id = "helloWorld" class = "com.spring.tutorialspoint.XMLConfiguration.helloworld.HelloWorld" scope = "prototype" init-method="init" destroy-method="destroy">
         <property name = "message" value = "Hello World!"/>
     </bean>
 
